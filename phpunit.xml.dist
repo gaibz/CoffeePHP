@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./__tests__/boil.php"
+         backupGlobals="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnError="false"
+         stopOnFailure="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false">
+    <testsuites>
+        <testsuite name="framework-test">
+            <directory>./__tests__</directory>
+        </testsuite>
+    </testsuites>
+
+<!--    <php>-->
+<!--        <server name="app.baseURL" value="http://example.com/"/>-->
+
+<!--        &lt;!&ndash; Directory containing phpunit.xml &ndash;&gt;-->
+<!--        <const name="HOMEPATH" value="./"/>-->
+
+<!--        &lt;!&ndash; Directory containing the Paths config file &ndash;&gt;-->
+<!--        <const name="CONFIGPATH" value="./app/Config/"/>-->
+
+<!--        &lt;!&ndash; Directory containing the front controller (index.php) &ndash;&gt;-->
+<!--        <const name="PUBLICPATH" value="./public/"/>-->
+<!--    </php>-->
+</phpunit>
