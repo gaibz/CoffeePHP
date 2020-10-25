@@ -1,5 +1,5 @@
 <?php
-require(__DIR__ . "/vendor/autoload.php");
+require_once(__DIR__ . "/vendor/autoload.php");
 
-$barista = new \CoffeePHP\Barista();
-$barista->brew();
+// Initialize Startup
+\Gaibz\CoffeePHP\Barista::brew();
