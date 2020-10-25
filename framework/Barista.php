@@ -1,22 +1,26 @@
 <?php
 
+namespace Gaibz\CoffeePHP;
 
-namespace CoffeePHP;
+use Gaibz\CoffeePHP\IO\Psr7\Request;
 
-
+/**
+ * Class Barista
+ * This is the barista who brew the coffee into something awesome
+ *
+ * @author Herlangga Sefani <herlangga.sefani@gmail.com>
+ * @package Gaibz\CoffeePHP
+ */
 class Barista
 {
 
     /**
      * Brew CoffeePHP
      * This is a startup script for initializing this framework
-     *
-     * @return $this
      */
-    public function brew() : self
+    public static function brew() : void
     {
-        echo "Under Development";
-        return $this;
+        require_once __DIR__ . '/constants.php';
     }
 
 }
