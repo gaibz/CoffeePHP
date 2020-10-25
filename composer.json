@@ -1,0 +1,23 @@
+{
+    "name": "gaibz/coffee-php",
+    "description": "Coffee PHP is a small | fast | easy | modular PHP Framework. Brewed for code reusability accross multiple project.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "license": "GNU GPLv3",
+    "authors": [
+        {
+            "name": "Herlangga Sefani",
+            "email": "herlangga.sefani@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "^7.4"
+    },
+    "autoload" : {
+        "psr-4": {
+            "CoffeePHP\\" : "framework/"
+        }
+    }
+}
