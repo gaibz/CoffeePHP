@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Gaibz\CofeePHP\IO\Psr7;
+namespace Gaibz\CoffeePHP\IO\Psr7;
 
 use Psr\Http\Message\StreamInterface;
 use Symfony\Component\Debug\ErrorHandler as SymfonyLegacyErrorHandler;
