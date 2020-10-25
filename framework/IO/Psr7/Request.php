@@ -6,7 +6,7 @@ namespace Gaibz\CoffeePHP\IO\Psr7;
 
 use Psr\Http\Message\{RequestInterface, StreamInterface, UriInterface};
 
-final class Request implements RequestInterface
+class Request implements RequestInterface
 {
     use MessageTrait;
     use RequestTrait;
