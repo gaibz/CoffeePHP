@@ -1,0 +1,5 @@
+<?php
+
+defined('COFFEE_PHP_FORMAT_NOTHING') or define('COFFEE_PHP_FORMAT_NOTHING', null);
+defined('COFFEE_PHP_FORMAT_JSON') or define('COFFEE_PHP_FORMAT_JSON', 1);
+defined('COFFEE_PHP_FORMAT_QUERY') or define('COFFEE_PHP_FORMAT_QUERY', 2);
